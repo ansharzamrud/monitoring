@@ -162,7 +162,7 @@ services:
     image: caddy:2.6.1
     restart: unless-stopped
     ports:
-      - '80:80'
+      - '81:80'
       - '444:443'
       - '8443:8443'
     volumes:
