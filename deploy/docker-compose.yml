@@ -62,7 +62,7 @@ services:
     image: bitnami/kafka:3.4.1
     restart: on-failure
     ports:
-      - "9092:9092"
+      - "9093:9092"
     environment:
       - KAFKA_ENABLE_KRAFT=no
       - ALLOW_PLAINTEXT_LISTENER=yes
